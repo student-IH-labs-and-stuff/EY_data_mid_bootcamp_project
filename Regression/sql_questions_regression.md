@@ -13,7 +13,7 @@
     SET GLOBAL local_infile = 1;
     ```
 
-4.  Select all the data from table `house_price_data` to check if the data was imported correctly
+4.  Select all the data from table `house_price_data` to check if the data was imported correctly.
 5.  Use the alter table command to drop the column `date` from the database, as we would not use it in the analysis with SQL. Select all the data from the table to verify if the command worked. Limit your returned results to 10.
 6.  Use sql query to find how many rows of data you have.
 7.  Now we will try to find the unique values in some of the categorical columns:
@@ -49,7 +49,7 @@
 
 12. Your manager wants to find out the list of properties whose prices are twice more than the average of all the properties in the database. Write a query to show them the list of such properties. You might need to use a subquery for this problem.
 13. Since this is something that the senior management is regularly interested in, create a view called `Houses_with_higher_than_double_average_price` of the same query.
-14. Most customers are interested in properties with three or four bedrooms. What is the difference in average prices of the properties with three and four bedrooms? In this case, you can simply use a group by to check the prices for those particular houses
+14. Most customers are interested in properties with three or four bedrooms. What is the difference in average prices of the properties with three and four bedrooms? In this case, you can simply use a group by to check the prices for those particular houses.
 15. What are the different locations where properties are available in your database? (distinct zip codes)
 16. Show the list of all the properties that were renovated.
 17. Provide the details of the property that is the 11th most expensive property in your database.
