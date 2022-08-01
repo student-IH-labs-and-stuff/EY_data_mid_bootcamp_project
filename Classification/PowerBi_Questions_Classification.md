@@ -1,8 +1,8 @@
 # PowerBi - Classification
 
-In this part of the project, you will work with the data set `creditcardmarketing.xlsx' and use PowerBi to answer the questions below. Make a separate sheet for every question: 
+In this part of the project, you will work with the data set `creditcardmarketing.xlsx` and use PowerBi to answer the questions below. Make a separate sheet for every question: 
 
-PowerBi Questions:
+**PowerBi Questions**:
 
 1. Convert the necessary data types where necessary (hint: convert variables that are categorical in nature but stored as numerical). 
 2. Check the imbalance in the dataset by looking at the number of customers who accepted the offer vs. customers who did not accept the offer. Add the counts as labels to a plot to show this imbalance. 
